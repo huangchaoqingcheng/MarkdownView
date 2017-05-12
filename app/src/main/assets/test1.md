@@ -1,12 +1,18 @@
 # {{app_name}}
 
+<video class="edui-upload-video vjs-default-skin video-js" controls="controls" poster="" preload="Metadata" width="100%" src="http://img.law.dev.hsq100.com/ximalaya.mp4">Your browser does not support the video tag.</video>
+
 ---
+
+# Video
+
+Wow
+
+@[yk](XNTcyMzIwMTE2)
 
 # Emphasis
 
 <font color=red> 测试红色 </font>
-
-
 
 To create **bold** or *italic*, wrap with asterisks * or underscores _.
 
@@ -48,16 +54,17 @@ Link text is enclosed by square brackets [], and for inline links, the link URL 
 
 [Gooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooogle](https://www.google.com)
 
+
 # Images
 Images are almost identical to links, but an image starts with an exclamation point !.
 
 ![](https://www.google.com.br/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png@100%|100px)
 ![](https://www.google.com.br/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png@100px|auto)
 
-![](http://img0.imgtn.bdimg.com/it/u=2739072824,3745508984&fm=23&gp=0.jpg)
+![](http://img0.imgtn.bdimg.com/it/u=2739072824,3745508984&fm=23&gp=0.jpg@100%|100px)
 
-![](http://img5.imgtn.bdimg.com/it/u=3066928183,3725629400&fm=23&gp=0.jpg)
-![](http://ww4.sinaimg.cn/mw690/e75a115bgw1f3rrbzv1m8g209v0diqv7.gif)
+![](http://img5.imgtn.bdimg.com/it/u=3066928183,3725629400&fm=23&gp=0.jpg@100%|auto)
+![](http://ww4.sinaimg.cn/mw690/e75a115bgw1f3rrbzv1m8g209v0diqv7.gif@100px|100px)
 
 # Code
 To create inline code, wrap with backticks `.
@@ -76,14 +83,14 @@ Or use 3 backticks
 var s = "JavaScript syntax highlighting";
 alert(s);
 ```
- 
+
 ```python
 s = "Python syntax highlighting"
 print s
 ```
- 
+
 ```
-No language indicated, so no syntax highlighting. 
+No language indicated, so no syntax highlighting.
 But let's throw in a <b>tag</b>.
 ```
 
@@ -98,6 +105,7 @@ Blockquotes can be nested, and can also contain other formatting.
 > > Nested line
 >
 > Last line
+
 
 # Lists
 Unordered lists can use either asterisks *, plus +, or hyphens - as list markers.
@@ -181,19 +189,9 @@ Duplicated footnote reference[^second].
 
 :japanese_goblin::japanese_ogre::turkey::owl::jack_o_lantern::fish::rice_ball::space_invader::flag_br::cupid::telescope:
 
-# Video
 
-Wow
-@[youtube](g2ag8t7AvX8)
 
-# Twitter
 
-### Embed a Single Tweet
-#[tweet](845101936550469634)
-#[tweet-hide-cards](845101936550469634)
-
-### Follow Button
-Seguir: #[follow](tiag0hm)
 
 # Label
 
