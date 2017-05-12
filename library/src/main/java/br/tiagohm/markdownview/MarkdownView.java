@@ -288,7 +288,7 @@ public class MarkdownView extends FrameLayout {
             .build();
 
     String str=renderer.render(parser.parse(text));
-    String tem= str.replaceAll("</em>\n|</strong>\n", "</em><br>");
+    String tem= str.replaceAll("</em>\n", "</em><br>").replaceAll("</strong>\n", "</strong><br>").replaceAll("</a>\n", "</a><br>");
     return tem;
   }
 
